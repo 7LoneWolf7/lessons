@@ -1,0 +1,51 @@
+@import url(reset.css);
+
+main{
+    background-color: wheat;
+}
+
+.header__block{
+    background-color: aqua;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: red;
+}
+
+.main__block {
+    font-size: 20px;
+    font-style: italic;
+    color: blue;
+
+}
+
+#second_paragraph{
+    color: red;
+    margin: 50px;
+    border: 2px groove greenyellow;
+}
+
+.text{
+    background-color: rgb(0, 0, 0);
+}
+
+.text *{
+    color:  rgb(0, 255, 42);
+}
+
+.jet__picture{
+    margin: 20px;
+}
+
+.cellar{
+    height: 100px;
+    width: auto;
+    background-color: black;
+    color: aqua;
+}
+
+.cellar__text{
+    padding: 30px;
+}
