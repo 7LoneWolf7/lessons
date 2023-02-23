@@ -1,0 +1,208 @@
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,700&display=swap");
+
+body{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header{
+    background: url("../img/Building.png") no-repeat center / cover;
+}
+
+.header__container {
+    max-width: 1270px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.header-body {
+    padding: 330px 0 100px;
+}
+.header-date {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.header-date:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.header-title {
+    font-family: 'Poppins';
+    color: #F8F9FA;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.header-title:hover{
+    color: yellowgreen;
+}
+
+.header-subtitle {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+}
+
+.unorder-list__container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.unorder-list-title {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    color: #212B36;
+    margin-bottom: 45px;
+}
+
+[class*=__list]{
+    display: inline-block;
+    margin-bottom: 68px;
+    min-width: 309px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #637381;
+    margin-right: 91px;
+}
+
+.unorder-list-circle__list li{
+    background: url("../img/Icons/Circle.png") 0 4px  / 8px no-repeat;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.unorder-list-circle__list:active{
+    color: black;
+}
+
+.unorder-list-cross__list li{
+    background: url("../img/Icons/Cross_circle.png") 0 0  / 20px no-repeat;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    line-height: 1.6;
+}
+
+.unorder-list-checkblue__list li{
+    background: url("../img/Icons/Check_mark.png") 0 0  / 20px no-repeat;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    line-height: 1.6;
+}
+
+.unorder-list-checkblue__list:hover{
+    text-decoration: underline;
+}
+
+.unorder-list-arrow__list li{
+    background: url("../img/Icons/Arrow.png") 0 0  / 20px no-repeat;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    line-height: 1.6;
+}
+
+.unorder-list-checkgreen__list li{
+    background: url("../img/Icons/checkmark_green.png") 0 0  / 20px no-repeat;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    line-height: 1.6;
+}
+
+.unorder-list-star__list li{
+    background: url("../img/Icons/Star.png") 0 0  / 20px no-repeat;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    line-height: 1.6;
+}
+
+.speaker{
+    padding-top: 81px;
+    padding-bottom: 83px;
+    background: linear-gradient(115deg, rgba(48,88,211,0) 70%, rgba(48,88,211,0.08) 70%), linear-gradient(115deg, rgba(48,88,211,0) 65%, rgba(48,88,211,0.08) 65%) #F4F7FF;
+}
+
+.speaker__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.speaker-textblock {
+    max-width: 570px;
+    display: inline-block;
+    margin-right: 179px;
+}
+
+.price {
+    margin-bottom: 13px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3056D3;
+}
+
+.price:hover{
+    color: #212B36;
+    text-decoration: underline 3px;
+}
+
+
+.speaker-title {
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #212B36;
+}
+
+.speaker-subtitle {
+    margin-bottom: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #637381;
+}
+
+.speaker-button{
+    display: inline-block;
+    background: #3056D3;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.speaker-button:hover{
+    background: #FFFFFF;
+    color: #3056D3;
+}
+
+.speaker-img{
+    vertical-align: top;
+}
